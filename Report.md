@@ -17,11 +17,13 @@ The neural network architecture used consists of two fully-connected layers with
    
  ## Results
  
- Below if the plot of scores vs episode
+ Below is a plot of scores vs episode
+ 
  ![Score vs Episode Number](imgs/scores_by_episode.png)
  
  
- The network is able to solve the environment after 584 episodes.  
+ The network is able to solve the environment after 584 episodes.
+   
  ![Average Score vs Episode Number](imgs/avg_scores_by_episode.png)
  
  From the average scores image, we notice that the agent appears to learn in "spurts", as there are pauses in learning around episode #200 and #500. This is likely because the randomly chosen frames during this time period are not conducive for additional learning.  
